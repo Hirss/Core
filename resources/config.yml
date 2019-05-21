@@ -1,0 +1,82 @@
+#################################
+# Configuration for Core									 #
+#################################
+# Below is the config are the messages that will be broadcasted
+
+# The below config is the prefix before the above messages
+prefix: "FightCubePE > "
+
+# The below configs is when the messages above will be broadcasted in seconds
+broadcast-interval: 60
+
+# The below config is the server name that will show up in the minecraft server list (NOTE: Use & for color coding)
+motd: "§4Fight§7§lCube"
+
+# The below config is the title that will show when the player joins the server.
+# To show the player's name use {playername}.
+join-title: "§5Welcome in"
+
+# The below config is the subtitle that will show when the player joins the server
+# To show the player's name use {playername}.
+join-subtitle: "§4Fight§l§7CubePE"
+
+# The below config is the message that will be sent when the player joins the server
+join-message: "FightCube is in development."
+
+# The below config is to toggle on or off novoid support (OPTIONS: on and off)
+novoid: "on"
+
+# The below config is to toggle on or off hunger disabler support (OPTIONS: on and off)
+hunger-disabler: "off"
+
+# The below config is to toggle on or off clear lagg support (OPTIONS: on and off)
+clearlagg: "on"
+
+update-interval: 3
+
+# Changing titles of the scoreboard.
+# Can be of any number.
+server-names:
+- "§l§aFight§cCubePE"
+
+# Currently Supported Tags:
+# {name}                - Name of the player.
+# {money}               - Money of the player. (Requires EconomyAPI).
+# {online}              - The number of online players.
+# {max_online}          - Max number of players allowed on the server.
+# {rank}                - Players current in-game rank/group. (Requires PurePerms).
+# {prison_rank}         - Get players Prison rank. (Requires RankUp)
+# {item_name}           - Name of the item in players hand.
+# {item_id}             - ID of the item in players hand.
+# {item_meta}           - Meta/Damage of the item in players hand.
+# {item_count}          - Amount of item in the players hand.
+# {x}/{y}/{z}           - X/Y/Z coordinate of the player.
+# {faction}             - Faction of the player. (Requires FactionsPro).
+# {load}                - Current load on the server (0 - 100%)
+# {tps}                 - TPS of the server.
+# {level_name}          - Name of the players current level/world.
+# {level_folder_name}   - Folder name of the players current level/world.
+# {ip}                  - IP of the player.
+# {ping}                - Ping of the player.
+# {kills}               - Get kill count of a player. (Requires KDR)
+# {deaths}              - Get death count of a player. (Requires KDR)
+# {kdr}                 - Get kill to death ratio of a player. (Requires KDR)
+# {time}                - Show the current time. Please see 'time-format' and 'timezone' above to modify it.
+# {cps}                 - Get the clicks per second of a player. Requires CPS.
+
+score-lines:
+- " §aName: §1{name}"
+- " §bOnline: §a{online} §c/ §d{max_online}"
+- " §cYour Ping: §7{ping} ms" 
+- " §6Your IP: {ip}" 
+- "{x} / {y} / {z}" 
+# Set the timezone for {time} to your own preference.
+# false - Follow the server/machine time without changes.
+# For a list of timezones you can visit: https://secure.php.net/manual/timezones.php
+# Example: "America/New_York" - This will set NewYork's time.
+# timezone: false
+# Set the time format that you want to display. Will only work if you add {time} in score-lines.
+# H - hours
+# i - minutes
+# s - seconds
+time-format: "H:i"

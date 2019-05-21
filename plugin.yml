@@ -1,0 +1,53 @@
+name: Core
+main: Hirss\Main
+api: [3.0.0, 4.0.0]
+author: Hirss
+version: 1.3
+commands:
+   wtp:
+    description: World TP
+   cvw:
+    description: Create void world
+   shop:
+    description: Shop rank
+   friends:
+    description: 
+   size:
+    description: open sizeui
+   azox:
+    description: cop1
+permissions:
+    heal.command:
+        default: op
+    feed.command:
+        default: op
+    fly.command:
+        default: op
+    freeze.command:
+        default: op
+    gms.command:
+        default: op
+    gmc.command:
+        default: op
+    gmspc.command:
+        default: op
+    clearinv.command:
+        default: op
+    wild.command:
+        default: true
+    vanish.command:
+        default: op
+    spawn.command:
+        default: true
+    xyz.command:
+        default: true
+    god.command:
+        default: op
+    afk.command:
+        default: true
+    kickall.command:
+        default: op
+    tpall.command:
+        default: op
+    ping.command:
+        default: true
