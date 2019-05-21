@@ -25,13 +25,13 @@ Author: Mev aka Hirss
 - /god
 - /heal
 - /kickall
-- /nick (this is command is not ready) 
+- /nick (this command is not ready) 
 - /ping
 - /spawn
 - /tpall
 - /vanish
 - /wild
-- /worldtp (he is bug) 
+- /worldtp
 - /xyz
 
 Party commands:
