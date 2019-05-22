@@ -3,6 +3,7 @@ main: Hirss\Main
 api: [3.0.0, 4.0.0]
 author: Hirss
 version: 1.3
+website: https://discord.gg/4RFU8ne
 commands:
    wtp:
     description: World TP
